@@ -5,11 +5,17 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #ec4899;
-  --color-secondary: #f472b6;
-  --color-cta: #06b6d4;
-  --color-background: #fdf2f8;
-  --color-text: #831843;
+  /* Urban Jungle Theme - Logic Maps to Tailwind Config */
+  --color-primary: #064E3B;
+  /* jungle-900 */
+  --color-secondary: #D97706;
+  /* gold-600 */
+  --color-cta: #14B8A6;
+  /* teal-500 */
+  --color-background: #FDFBF7;
+  /* sand-50 */
+  --color-text: #064E3B;
+  /* jungle-900 */
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -19,7 +25,7 @@
 
 @layer base {
   body {
-    @apply bg-background text-text font-sans antialiased;
+    @apply bg-sand-50 text-jungle-900 font-sans antialiased;
   }
 
   h1,
@@ -28,13 +34,13 @@
   h4,
   h5,
   h6 {
-    @apply font-heading font-bold;
+    @apply font-serif font-bold text-jungle-900;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-cta text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:opacity-90 hover:-translate-y-px cursor-pointer shadow-md hover:shadow-lg;
+    @apply bg-gold-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:bg-gold-500 hover:-translate-y-px cursor-pointer shadow-md hover:shadow-lg;
   }
 
   .card {

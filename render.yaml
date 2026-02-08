@@ -1,6 +1,7 @@
 services:
-  - type: static
-    name: tokyo-trip-planner
+  - type: web
+    name: kuala-lumpur-trip-planner
     env: static
-    buildCommand: "npm install && npm run build"
-    publishPath: "dist"
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    branch: main

@@ -1,8 +1,8 @@
 # Kuala Lumpur Trip Planner (React + Vite)
 
-A mobile-first itinerary application for a Tokyo trip, featuring a modern "Neon Tokyo" aesthetic.
+A mobile-first itinerary application for a Kuala Lumpur trip, featuring a modern "Urban Jungle" aesthetic.
 
-> 📷 **[🇯🇵 東京行：X-M5 專屬底片配方全清單 (Tokyo Trip)](./Tokyo_Trip_Planner.md)** - 7 月東京行完整優化參數檢查表。
+> 📷 **[🇲🇾 吉隆坡行：X-M5 專屬底片配方全清單 (KL Trip)](./KL_Trip_Camera_Guide.md)** - 5 月吉隆坡行完整優化參數檢查表。
 
 ## Tech Stack
 - React

@@ -17,7 +17,7 @@ export const itineraryData = [
             {
                 time: '15:30',
                 title: 'The Exchange TRX 逛街',
-                desc: '全馬首間 Apple Store (圓頂光影極佳) & Seibu 西武百貨。',
+                desc: '全馬首間：Apple Store (圓頂)、Seibu、Bacha Coffee、Shake Shack、Gentle Monster、Alo Yoga、Cafe Kitsuné。',
                 icon: ShoppingBag,
                 type: 'shopping',
                 camera: {
@@ -163,7 +163,7 @@ export const itineraryData = [
             {
                 time: '15:30',
                 title: 'LaLaport BBCC',
-                desc: '日系極簡百貨，頂樓花園適合拍照，育兒設施完善。',
+                desc: '全馬首間：NITORI、Nojima、Coo & RIKU (貓咪咖啡廳)、Shin\'Labo。日系極簡，頂樓花園適合拍照。',
                 icon: ShoppingBag,
                 type: 'shopping'
             },

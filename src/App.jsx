@@ -31,6 +31,21 @@ function App() {
           </p>
         </header>
 
+        {/* MDAC Reminder - High Visibility */}
+        <div className="mx-6 mb-4 mt-6">
+          <div className="bg-gold-50 border border-gold-200 rounded-xl p-4 flex items-start gap-3 shadow-sm">
+            <Info className="text-gold-600 shrink-0 mt-0.5" size={18} />
+            <div>
+              <h3 className="text-xs font-bold text-gold-700 tracking-wider uppercase mb-1">Important</h3>
+              <p className="text-xs text-jungle-900/80 leading-relaxed font-medium">
+                記得填寫 <span className="font-bold text-gold-600">MDAC</span> (Malaysia Digital Arrival Card)
+                <br />
+                <span className="text-[10px] opacity-70">抵達前 3 天內開放填寫</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Global Camera Guide (Collapsible) */}
         <div className="mx-6 mb-6">
           <button

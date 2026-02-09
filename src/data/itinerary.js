@@ -12,7 +12,8 @@ export const itineraryData = [
                 title: '金普頓納魯利亞 Check-in',
                 desc: '入住 Kimpton Naluria，享受精品飯店氛圍。',
                 icon: Hotel,
-                type: 'stay'
+                type: 'stay',
+                map: 'Kimpton Naluria Kuala Lumpur' // Fallback to provided name
             },
             {
                 time: '15:30',
@@ -20,6 +21,7 @@ export const itineraryData = [
                 desc: '全馬首間：Apple Store (圓頂)、Seibu、Bacha Coffee、Shake Shack、Gentle Monster、Alo Yoga、Cafe Kitsuné。',
                 icon: ShoppingBag,
                 type: 'shopping',
+                map: 'The Exchange TRX',
                 camera: {
                     mode: 'C1 (Airy Blue)',
                     desc: 'Apple Store 圓頂',
@@ -33,6 +35,7 @@ export const itineraryData = [
                 icon: Palmtree,
                 type: 'activity',
                 highlight: true,
+                map: 'TRX City Park',
                 camera: {
                     mode: 'C2 (Teal & Orange)',
                     desc: '夕陽天際線',
@@ -44,7 +47,8 @@ export const itineraryData = [
                 title: '亞羅街 (Jalan Alor) - 黃亞華小食店',
                 desc: '必點燒雞翼與沙爹。吉隆坡最道地的熱鬧風味。',
                 icon: Utensils,
-                type: 'dining'
+                type: 'dining',
+                map: 'Wong Ah Wah Restaurant Jalan Alor'
             }
         ],
         notes: []
@@ -61,6 +65,7 @@ export const itineraryData = [
                 desc: '鮮黃色百年老宅貝果店，室內採光極美。',
                 icon: Coffee,
                 type: 'dining',
+                map: 'Grumpy Bagels KL',
                 camera: {
                     mode: 'C4 (Astia)',
                     desc: '老宅鮮黃外觀',
@@ -72,7 +77,8 @@ export const itineraryData = [
                 title: '阿喜肉骨茶 (Ah Hei Bak Kut Teh)',
                 desc: '米其林必比登推薦，湯頭甘甜肉質軟嫩，適合小孩。',
                 icon: Utensils,
-                type: 'dining'
+                type: 'dining',
+                map: 'Ah Hei Bak Kut Teh'
             },
             {
                 time: '13:00',
@@ -80,6 +86,7 @@ export const itineraryData = [
                 desc: '欣賞木質階梯與拱門設計的建築美學。',
                 icon: ShoppingBag,
                 type: 'shopping',
+                map: 'The Starhill',
                 camera: {
                     mode: 'C3 (Nostalgic)',
                     desc: '誠品書店光影',
@@ -91,14 +98,16 @@ export const itineraryData = [
                 title: '柏威年廣場 (Pavilion KL)',
                 desc: '拍攝門口大噴泉，快閃逛街。',
                 icon: ShoppingBag,
-                type: 'shopping'
+                type: 'shopping',
+                map: 'Pavilion Kuala Lumpur'
             },
             {
                 time: '16:00',
                 title: '前往 KLCC',
                 desc: '步行冷氣天橋，舒適散步 15 分鐘。',
                 icon: User,
-                type: 'transit'
+                type: 'transit',
+                map: 'KLCC - Bukit Bintang Pedestrian Walkway'
             },
             {
                 time: '16:30',
@@ -106,14 +115,16 @@ export const itineraryData = [
                 desc: '海底隧道看鯊魚，4 歲小孩的最愛。',
                 icon: Star,
                 type: 'activity',
-                highlight: true
+                highlight: true,
+                map: 'Aquaria KLCC'
             },
             {
                 time: '19:00',
                 title: "Madam Kwan's (Suria KLCC)",
                 desc: '吉隆坡必吃椰漿飯 (Nasi Lemak) 與三色飯。',
                 icon: Utensils,
-                type: 'dining'
+                type: 'dining',
+                map: "Madam Kwan's Suria KLCC"
             }
         ],
         notes: [
@@ -135,6 +146,7 @@ export const itineraryData = [
                 desc: '全馬最華麗摩洛哥式咖啡廳，金碧輝煌的攝影熱點。',
                 icon: Coffee,
                 type: 'dining',
+                map: 'Bacha Coffee The Exchange TRX',
                 camera: {
                     mode: 'C3 (Nostalgic)',
                     desc: '金碧輝煌室內',
@@ -147,6 +159,7 @@ export const itineraryData = [
                 desc: '拍攝懷舊壁畫與南洋老宅。',
                 icon: Camera,
                 type: 'activity',
+                map: 'Kwai Chai Hong',
                 camera: {
                     mode: 'C3 (Classic Neg)',
                     desc: '斑駁牆面與壁畫',
@@ -158,14 +171,16 @@ export const itineraryData = [
                 title: '麗豐喇喇米粉',
                 desc: '老牌名店，鮮甜海鮮湯頭。',
                 icon: Utensils,
-                type: 'dining'
+                type: 'dining',
+                map: 'Lai Foong Lala Noodles'
             },
             {
                 time: '15:30',
                 title: 'LaLaport BBCC',
                 desc: '全馬首間：NITORI、Nojima、Coo & RIKU (貓咪咖啡廳)、Shin\'Labo。日系極簡，頂樓花園適合拍照。',
                 icon: ShoppingBag,
-                type: 'shopping'
+                type: 'shopping',
+                map: 'LaLaport Bukit Bintang City Centre'
             },
             {
                 time: '18:30',
@@ -174,6 +189,7 @@ export const itineraryData = [
                 icon: MapPin,
                 type: 'activity',
                 highlight: true,
+                map: 'River of Life Kuala Lumpur',
                 camera: {
                     mode: 'C2 (Teal & Orange)',
                     desc: '藍色水霧與建築',
@@ -187,6 +203,7 @@ export const itineraryData = [
                 icon: Utensils,
                 type: 'dining',
                 highlight: true,
+                map: 'Manja Old Malaya',
                 camera: {
                     mode: 'C4 (Astia)',
                     desc: '殖民老房光影',
@@ -212,14 +229,16 @@ export const itineraryData = [
                 title: '飯店早餐',
                 desc: '在 Kimpton 內享用悠閒早餐。',
                 icon: Coffee,
-                type: 'dining'
+                type: 'dining',
+                map: 'Kimpton Naluria Kuala Lumpur'
             },
             {
                 time: '10:30',
                 title: 'Check-out 前往機場',
                 desc: '大廳搭乘 Grab 直達 KLIA。',
                 icon: Hotel,
-                type: 'transit'
+                type: 'transit',
+                map: 'Kuala Lumpur International Airport'
             },
             {
                 time: '13:05',
